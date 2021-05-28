@@ -436,16 +436,16 @@ export const employees = [{
 }, {
     "teamId": 1,
     "id": "dbd7f48a-6540-4560-bb7c-cd60456b55b8",
-    "fullName": "Rhys Pheazey",
+    "fullName": "Borobudur",
     "jobTitle": "Speech Pathologist",
-    "country": "BR",
+    "country": "ID",
     "isOnline": false,
     "rating": 5,
     "target": 98,
     "budget": 62483,
     "phone": "(365) 8904529",
     "address": "987 Carioca Lane",
-    "imgId": 9,
+    "imgId": 100,
     "gender": "M",
     "selected": false
 }, {
