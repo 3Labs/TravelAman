@@ -2,7 +2,6 @@
   "name": "travelaman",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://telerik.github.io/react-coffee-warehouse",
   "dependencies": {
     "@progress/kendo-data-query": "^1.5.4",
     "@progress/kendo-date-math": "^1.5.1",
