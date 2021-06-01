@@ -34,7 +34,7 @@ export const enMessages = {
         "status": "Status",
         "performance": "Performance",
         "rating":"Rating",
-        "engagement": "Engagement",
+        "engagement": "Reviews",
         "budget": "Budget",
         "contacts": "Contacts",
         "address": "Address",
