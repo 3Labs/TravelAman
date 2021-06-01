@@ -59,13 +59,13 @@ const Profile = () => {
                             }}
                             render={(formRenderProps) => (
                                 <FormElement horizontal={true} style={{ maxWidth: 700 }}>
-                                    <Field
+                                    {/* <Field
                                         id={'avatar'}
                                         name={'avatar'}
                                         label={''}
                                         validator={requiredValidator}
                                         component={Upload}
-                                    />
+                                    /> */}
                                     <Field
                                         id={'firstName'}
                                         name={'firstName'}
@@ -111,7 +111,7 @@ const Profile = () => {
                                         data={countriesData}
                                         component={DropDownList}
                                     />
-                                    <Field
+                                    {/* <Field
                                         id={'biography'}
                                         name={'biography'}
                                         label={localizationService.toLanguageString('custom.biography')}
@@ -146,7 +146,7 @@ const Profile = () => {
                                         >
                                             {localizationService.toLanguageString('custom.saveChanges')}
                                         </Button>
-                                    </div>
+                                    </div> */}
                                 </FormElement>
                             )}
                         />
