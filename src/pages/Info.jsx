@@ -1,3 +1,30 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+import $ from 'jquery';
+import '@progress/kendo-ui';
+import { Barcode, QRCode } from '@progress/kendo-barcodes-react-wrapper';
+
+const Info = () => {
+class LayoutsContainer extends React.Component {
+
+     render() {
+       return (
+           <div className={"row example-wrapper"}>
+               <div className={"col-xs-12 col-md-6 example-col"}>
+                   <QRCode value={"tel:+1-888-365-2779"} errorCorrection={"Q"} color={"#67a814"} size={120} />
+               </div>
+           </div>
+       );
+     }
+   }
+
+   ReactDOM.render(
+     <LayoutsContainer />,
+     document.querySelector('travelaman')
+   );
+   }
+   
 
 // import * as React from 'react';
 

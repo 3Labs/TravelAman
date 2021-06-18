@@ -69,8 +69,8 @@ const Planning = () => {
         } : null;
 
     const [range, setRange] = React.useState({
-        start: new Date('2020-01-01T21:00:00.000Z'),
-        end: new Date('2020-04-29T21:00:00.000Z')
+        start: new Date('2021-01-01T21:00:00.000Z'),
+        end: new Date('2021-04-29T21:00:00.000Z')
     });
     const onRangeChange = React.useCallback(
         (event) => {

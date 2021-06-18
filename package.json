@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@progress/kendo-barcodes-react-wrapper": "^2019.4.1014",
     "@progress/kendo-data-query": "^1.5.4",
     "@progress/kendo-date-math": "^1.5.1",
     "@progress/kendo-drawing": "^1.9.4",
@@ -27,6 +28,7 @@
     "@progress/kendo-react-treeview": "^4.5.0",
     "@progress/kendo-react-upload": "^4.5.0",
     "@progress/kendo-theme-default": "^4.36.0",
+    "@progress/kendo-ui": "^2021.2.511",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
