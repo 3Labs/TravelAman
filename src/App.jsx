@@ -92,7 +92,7 @@ const App = () => {
                                     <Route exact={true} path="/" component={Dashboard} />
                                     <Route exact={true} path="/planning" component={Planning} />
                                     <Route exact={true} path="/profile" component={Profile} />
-                                    {/* <Route exact={true} path="/info" component={Info} /> */}
+                                    <Route exact={true} path="/info" component={Info} />
                                 </Switch>
                             </DrawerRouterContainer>
                         </HashRouter>
