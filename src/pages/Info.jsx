@@ -7,6 +7,7 @@ const Info = () => {
   return (
     <div id="Info" className="card-buttons">
       <Button>Hai</Button >
+      <Text>Sentiment Analysis</Text>
     </div>
     );
   }
